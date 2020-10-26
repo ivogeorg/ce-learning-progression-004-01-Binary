@@ -111,6 +111,7 @@ function toUnsignedBinaryString(dec : number) : string {
         else
             bin_array.insertAt(0, 0)
         if (no_fraction == 0) break
+        quotient = no_fraction
     }
 
     return '0b' + 
