@@ -227,7 +227,7 @@ The signed integer is also a primitive type.
    5. How will you order the two sets so that they are symmetric through application of the bitwise opration from (3)?  
    6. At this point, you should have arrived at 1s-complement signed integers of the bit width you chose in (2). Point out the problem with it.  
    7. The foremost design principles for a number representation is that it is _arithmetically correct_ and _computationally cheap_. How would you fix the problem you pointed out in (6) in accordance to these principles. _Hint: Flipping a bit is cheap. Adding 1 to a number is cheap._  
-   8. Show the sequence of _cheap_ operations that will _correctly_ compute 95<sub>10</sub) - 37<sub>10</sub>, in 2s-complement binary. _Hint: The silent overflow is a feature, not an error!_  
+   8. Show the sequence of _cheap_ operations that will _correctly_ compute 95<sub>10</sub> - 37<sub>10</sub>, in 2s-complement binary. _Hint: The silent overflow is a feature, not an error!_  
 
 #### 3. Present
 [[toc](#table-of-contents)]
