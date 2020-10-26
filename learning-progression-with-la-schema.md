@@ -29,6 +29,7 @@ This progression introduces fundamentals of computing, including the binary syst
 [[toc](#table-of-contents)]
 
 ##### Positional numeral systems
+[[toc](#table-of-contents)]
 
 `[<lernact-rd>]`The most widely used number system is `[<cept>]`_decimal_. What does "decimal" actually mean? Let us list the obvious:
 1. [Decimal](https://www.etymonline.com/word/decimal) means 10.  
@@ -55,6 +56,7 @@ The `[<cept>]`[_binary_](https://en.wikipedia.org/wiki/Binary_number) number sys
 **Question 1.1.4:** What does <img src="https://render.githubusercontent.com/render/math?math=10"> represent in binary?  
 
 ##### Unsigned integers
+[[toc](#table-of-contents)]
 
 `[<lernact-rd>]`The simplest data type in computing is the `[<cept>]`_unsigned integer_. "Unsigned" means `[<cept>]`_non-negative_. "Integer" means `[<cept>]`_whole number_. Here are the first 16 unsigned integers, in both decimal and binary:
 Decimal | Binary
@@ -118,6 +120,7 @@ function toUnsignedBinaryString(dec : number) : string {
 ```
 
 ##### Finite bit width   
+[[toc](#table-of-contents)]
 
 `[<lernact-rd>]`A bit pattern of _any length_ can represent an unsigned integer. However, computers represent unsigned integers of `[<cept>]`_fixed bit width_, which is a power of 2. The most widely used bit widths are 8, 16, 32, 64, and 128. For example, here is the number <img src="https://render.githubusercontent.com/render/math?math=172_{10}"> in 8 bits, 16 bits, and 32 bits:
 Bit width | Bit pattern
@@ -135,12 +138,14 @@ Finite bit-width means a limit on the largest number that can be represented. If
 **Question 1.1.7:** Will <img src="https://render.githubusercontent.com/render/math?math=653_{10}"> overflow in 8-bit binary?   
 
 ##### Primitive data types revisited
+[[toc](#table-of-contents)]
 
 The unsigned integer is one of the `[<cept>]`_primitive_ data types, along with _signed integers_, _floating-point numbes_, and _booleans_. A data type is primitive if it is represented in a `[<cept>]`[_word_](https://en.wikipedia.org/wiki/Word_(computer_architecture)). More on this when we tackle memory addressing and processor arithmetic in later steps.
 
 **Question 1.1.8:** What is the word size of the micro:bit? _Hint: There are three ways to tell: (i) Reread the last two sections carefully; (ii) In the Wikipedia page, look at the table and find ARMv6-M, the architecture of the micro:bit processor; and (iii) Skim-read the [hardware overview](https://tech.microbit.org/hardware/1-5-revision/) documentation page for the micro:bit._  
 
 ##### Signed integers
+[[toc](#table-of-contents)]
 
 `[<lernact-rd>]``[<cept>]`_Signed integers_ are integers that can be negative and non-negative.
 
@@ -165,6 +170,7 @@ The signed integer is also a primitive type.
 **Question 1.1.9:** If we can represent 32 different signed integer numbers, what is the largest negative number that we can represent?  
 
 ##### IEEE 754 floating point  
+[[toc](#table-of-contents)]
 
 `[<lernact-rd>]`There are many different ways to represent `[<cept>]`_real_ numbers in binary, but the established standard is the [IEEE 754 format](https://en.wikipedia.org/wiki/Single-precision_floating-point_format). The full coverage of this standard is beyond the scope of this learning progression, but we need to understand the most important elements:
 1. The standard is based on the `[<cept>]`[_scientific notation_](https://www.mathsisfun.com/numbers/scientific-notation.html) for real numbers. For example:  
