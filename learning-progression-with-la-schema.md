@@ -171,7 +171,7 @@ Decimal | Sign and value | 1s complement | 2s complement
 
 The signed integer is also a primitive type.
 
-**Question 1.1.11:** If we can represent 32 different signed integer numbers, what is the largest negative number that we can represent?  
+**Question 1.1.11:** If we can represent 32 different signed integer numbers, what is the largest (by absolute value) negative number that we can represent?  
 
 ##### IEEE 754 floating point  
 [[toc](#table-of-contents)]
